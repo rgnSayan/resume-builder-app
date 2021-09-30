@@ -1,0 +1,99 @@
+.mainFile {
+  padding: 15px 0px;
+  background-color: #f4b400;
+  height: 100%;
+}
+
+.personalInfo > h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 3em;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2;
+}
+
+.infoContainer > label {
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: "Playfair Display";
+}
+
+.infoContainer > input,
+textarea {
+  width: 50%;
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+::placeholder {
+  color: #181e4b;
+  opacity: 0.5;
+  font-family: "Playfair Display", serif;
+  font-size: 1em;
+}
+
+/* education details */
+
+.educationDetails {
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+.educationDetails > h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 3em;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+.secondary__container,
+.highSecondary__container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  line-height: 2;
+}
+.highSecondary__container {
+  margin-top: 3%;
+}
+
+.secondary__container > h2,
+.highSecondary__container > h2 {
+  text-align: center;
+  font-size: 2em;
+  font-family: Roboto;
+  text-transform: uppercase;
+  padding-bottom: 2%;
+}
+
+.secondary__container > label,
+.highSecondary__container > label {
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: "Playfair Display";
+  text-align: center;
+}
+.main__education {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.secondary__container > input,
+.highSecondary__container > input {
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

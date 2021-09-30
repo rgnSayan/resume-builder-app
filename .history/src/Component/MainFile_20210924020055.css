@@ -1,0 +1,269 @@
+.mainFile {
+  padding: 15px 0px;
+  background-color: #f4b400;
+  height: 100%;
+}
+
+.personalInfo > h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 3em;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  color: #f50057;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2;
+}
+
+.infoContainer > label {
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: "Playfair Display";
+  color: #f50057;
+}
+
+.infoContainer > input,
+.infoContainer > textarea {
+  width: 50%;
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+::placeholder {
+  color: #181e4b;
+  opacity: 0.5;
+  font-family: "Playfair Display", serif;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+/* education details */
+
+.educationDetails {
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+.educationDetails > h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 3em;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  color: #f50057;
+}
+.secondary__container,
+.highSecondary__container,
+.university__container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  line-height: 2;
+}
+.highSecondary__container,
+.university__container {
+  margin-top: 3%;
+}
+
+.secondary__container > h2,
+.highSecondary__container > h2,
+.university__container > h2 {
+  text-align: center;
+  font-size: 2em;
+  font-family: Roboto;
+  text-transform: uppercase;
+  padding-bottom: 2%;
+  color: #f50057;
+}
+
+.secondary__container > label,
+.highSecondary__container > label,
+.university__container > label {
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: "Playfair Display";
+  text-align: center;
+  color: #f50057;
+}
+.main__education {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.secondary__container > input,
+.highSecondary__container > input,
+.university__container > input {
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* skills */
+
+.skills > h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 3em;
+  color: #f50057;
+  text-decoration: underline;
+}
+.skills__one,
+.skills__two,
+.skills__three,
+.skills__four,
+.skills__five {
+  display: flex;
+  align-items: center;
+}
+.skills__one > .MuiSvgIcon-root,
+.skills__two > .MuiSvgIcon-root,
+.skills__three > .MuiSvgIcon-root,
+.skills__four > .MuiSvgIcon-root,
+.skills__five > .MuiSvgIcon-root {
+  color: rgb(250, 8, 8);
+  padding-right: 10px;
+  font-size: 2em;
+  animation: rotation 2s infinite linear;
+  padding: 3%;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.skills__container {
+  padding-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skills__one > input,
+.skills__two > input,
+.skills__three > input,
+.skills__four > input,
+.skills__five > input {
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  width: 550px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* projects */
+
+.project__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.project__container > h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 3em;
+  text-decoration: underline;
+}
+.project__one,
+.project__two {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+}
+
+.projectOne__header > h2,
+.projectTwo__header > h2 {
+  text-align: center;
+  font-family: Roboto, "Helvetica Neue";
+  padding-right: 10px;
+}
+.projectOne__header,
+.projectTwo__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project__one > input,
+.project__one > textarea,
+.project__two > input,
+.project__two > textarea {
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  width: 600px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* experience */
+
+.experience > h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 700;
+  font-family: "Playfair Display";
+}
+.experience {
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+.experience__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+}
+.experience__header > h2 {
+  font-size: 2em;
+  font-family: "Roboto";
+}
+.experience__header > .MuiSvgIcon-root {
+  font-size: 2em;
+  padding-right: 10px;
+  animation: rotation 5s infinite linear;
+}
+
+.experience__input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2%;
+}
+.experience__input > input,
+.experience__input > textarea {
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  width: 45%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

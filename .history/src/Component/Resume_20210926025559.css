@@ -1,0 +1,13 @@
+.resume__header {
+  margin: 10px;
+  line-height: 1.5;
+}
+.resume__header > h2 {
+  font-size: 2.5em;
+  font-weight: 500;
+  font-family: Roboto;
+}
+.resume__header > p {
+  font-family: Roboto;
+  text-align: justify;
+}

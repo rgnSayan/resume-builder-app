@@ -1,0 +1,4 @@
+.header__container > ul {
+  display: flex;
+  list-style: none;
+}

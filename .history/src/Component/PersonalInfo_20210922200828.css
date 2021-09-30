@@ -1,0 +1,22 @@
+.personalInfo {
+  margin: 15px;
+}
+.personalInfo > h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+}
+.infoContainer > label {
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: Roboto;
+}
+.infoContainer > input {
+  width: 40%;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+}

@@ -1,0 +1,15 @@
+.home > h1 {
+  font-size: 4em;
+  text-align: center;
+  font-family: Roboto;
+}
+.home > h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Roboto;
+}
+.home {
+  margin-top: 15%;
+  line-height: 1;
+}

@@ -1,0 +1,8 @@
+.resume__header {
+  padding: 10px;
+}
+.resume__header > h2 {
+  font-size: 2em;
+  font-weight: 500;
+  font-family: Roboto;
+}

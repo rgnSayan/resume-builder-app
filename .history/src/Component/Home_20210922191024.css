@@ -1,0 +1,11 @@
+.home > h1 {
+  font-size: 4em;
+  text-align: center;
+  font-family: Roboto;
+}
+.home > h3 {
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Roboto;
+}

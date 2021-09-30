@@ -1,0 +1,29 @@
+.personalInfo {
+  margin: 15px;
+}
+.personalInfo > h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+}
+.infoContainer > label {
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: Roboto;
+}
+.infoContainer > input,
+textarea {
+  width: 40%;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #000;
+}
+::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+}

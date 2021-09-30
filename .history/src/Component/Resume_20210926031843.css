@@ -1,0 +1,34 @@
+.resume__header {
+  margin: 10px 20%;
+  line-height: 1.5;
+  background-color: #274472;
+  padding: 1% 3%;
+}
+
+.resume__header > h2 {
+  font-size: 2.5em;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #fff;
+}
+.resume__header > p {
+  font-family: Roboto;
+  text-align: justify;
+  color: #fff;
+}
+.resume__media {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0px 20%;
+}
+.media__containerLeft {
+  line-height: 2;
+}
+.resume__mail,
+.resume__location,
+.resume__linkedin,
+.resume__phone,
+.resume__github,
+.resume__date {
+}
